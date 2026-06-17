@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.jdeiss.scriptpacks.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"client": [
-		"ExampleClientMixin"
+	"mixins": [
+		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
