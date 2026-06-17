@@ -3,7 +3,7 @@
 	"package": "com.jdeiss.scriptpacks.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ServerResourcePackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

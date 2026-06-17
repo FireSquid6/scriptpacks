@@ -3,9 +3,9 @@
 	"id": "scriptpacks",
 	"version": "${version}",
 	"name": "Scriptpacks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Server-side scripting platform — TypeScript/Bun scriptpacks with RPC bridge to game state",
 	"authors": [
-		"Me!"
+		"jdeiss"
 	],
 	"contact": {
 		"homepage": "https://github.com/firesquid6/scriptpacks",
@@ -13,21 +13,14 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/scriptpacks/icon.png",
-	"environment": "*",
+	"environment": "server",
 	"entrypoints": {
-		"main": [
+		"server": [
 			"com.jdeiss.scriptpacks.ScriptpacksMod"
-		],
-		"client": [
-			"com.jdeiss.scriptpacks.client.ScriptpacksModClient"
 		]
 	},
 	"mixins": [
-		"scriptpacks.mixins.json",
-		{
-			"config": "scriptpacks.client.mixins.json",
-			"environment": "client"
-		}
+		"scriptpacks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",

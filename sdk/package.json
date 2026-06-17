@@ -1,0 +1,13 @@
+{
+  "name": "@scriptpacks/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for scriptpacks — typed wrappers for the Minecraft RPC bridge",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
